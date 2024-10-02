@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>QR code generator</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="grid-container">
+            <div class="heading"><h1>QR code generator</h1></div>
+            <div><p>Enter a URL to generate an image</p></div>
+            <div class="inBox"><input type="text" placeholder="Enter URL"></div>
+            <div style="text-align: center;"><button class="gen">Generate</button></div>
+            <div class="image-row">
+                <img src="" alt="" id="image-qr">
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
